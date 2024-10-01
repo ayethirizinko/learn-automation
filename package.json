@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open":"cypress open",
     "cypress:run":"cypress run",
-    "cypress:run:spec":"cypress run --spec cypress/e2e/home.cy.js"
+    "cypress:run:spec":"cypress run --spec cypress/e2e/spec.cy.js",
+    "cypress:run:home":"cypress run --spec cypress/e2e/home.cy.js"
   },
   "keywords": [],
   "author": "",
