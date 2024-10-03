@@ -1,3 +1,5 @@
+
+
 // Check based on "Given, When, Then" or "Arrange, Act, Assert"
 describe('Click Link & Check URL', () => {
     // Define link
@@ -33,6 +35,4 @@ describe('Click Link & Check URL', () => {
             cy.location('pathname').should('equal',"/commands/traversal")
         })
     })
-
-
 })
