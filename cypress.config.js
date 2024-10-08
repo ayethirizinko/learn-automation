@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://example.cypress.io',
-    specPattern: 'cypress/e2e/*.cy.{js,jsx,ts,tsx}',
+    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     defaultCommandTimeout:10000,
     // execTimeout:60000,
     // taskTimeout:60000,
