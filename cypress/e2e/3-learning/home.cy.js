@@ -18,6 +18,6 @@ describe("home page", () => {
       // const homepage = new HomePage();
       cy.visit("/");
       homepage.clickGet();
-      cy.url().should('include', '/commands/querying')
+      cy.url().should('include', '/commands/go')
     })
   })

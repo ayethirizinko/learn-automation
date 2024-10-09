@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open":"cypress open",
-    "cypress:run":"cypress run",
-    "cypress:run:spec":"cypress run --spec cypress/e2e/3-learning/spec.cy.js",
-    "cypress:run:home":"cypress run --spec cypress/e2e/3-learning/home.cy.js"
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "test:spec": "npx cypress run --spec cypress/e2e/3-learning/spec.cy.js",
+    "test:home": "npx cypress run --spec cypress/e2e/3-learning/home.cy.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^13.14.2"
+  },
+  "dependencies": {
+    "nodejs": "^0.0.0"
   }
 }
