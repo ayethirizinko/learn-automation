@@ -1,6 +1,6 @@
-import HomePage from "../POM/home-page";
+import HomePage from "../../POM/home-page";
 
-const homepage = new HomePage();
+const homePage = new HomePage();
 
 describe("home page", () => {
     it("HOO1", () => {
@@ -15,9 +15,11 @@ describe("home page", () => {
 
     // Only run one test when run these spec file
     it.only("HOO2",()=>{
-      // const homepage = new HomePage();
       cy.visit("/");
-      homepage.clickGet();
-      cy.url().should('include', '/commands/go')
+      homePage.clickGet();
+      // cy.contains('get').click();
+      // homepage.clickGet();
+      cy.url().should('include', '/commands/querying');
+      cy.log("Status OK");
     })
   })

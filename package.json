@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "npx cypress open",
-    "cypress:run": "npx cypress run",
+    "test:exit": "echo \"Error: no test specified\" && exit 1",
+    "test:open": "npx cypress open",
+    "test:": "npx cypress run",
     "test:spec": "npx cypress run --spec cypress/e2e/3-learning/spec.cy.js",
     "test:home": "npx cypress run --spec cypress/e2e/3-learning/home.cy.js"
   },
@@ -14,6 +14,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^13.14.2"
+    "cypress": "^13.15.0"
   }
 }
